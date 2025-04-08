@@ -5,14 +5,13 @@ Este proyecto es una aplicación web desarrollada con **Python 3.9.2** y **Flask
 ## Requisitos
 
 - **Python**: 3.9.2
-- **Flask**: 3.1.0 (última versión disponible al 13 de noviembre de 2024) ([pypi.org](https://pypi.org/project/Flask/))
+- **Flask**: 3.1.0  ([pypi.org](https://pypi.org/project/Flask/))
 
 ## Instalación
 
 1. **Clonar el repositorio**:
    ```bash
-   git clone https://github.com/tu_usuario/tu_repositorio.git
-   cd tu_repositorio
+   git clone https://github.com/FreddyJasonQ/Flask-Python-Frontend.git
    ```
 
 2. **Crear un entorno virtual** (recomendado):
@@ -107,4 +106,4 @@ Este proyecto es una aplicación web desarrollada con **Python 3.9.2** y **Flask
 
 ## Licencia
 
-Este proyecto está bajo la licencia MIT. Para más detalles, consulta el archivo LICENSE.
+Este proyecto está bajo la licencia MIT.

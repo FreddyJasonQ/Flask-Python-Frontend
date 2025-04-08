@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block title %}NaturaFizz - Servicios{% endblock %}
+{% block content %}
+<!-- Services Section -->
+<section class="services" id="services">
+    <h2 class="section-title">Nuestros Servicios</h2>
+    <div class="services-grid">
+        <div class="service-card">
+            <img src="{{ url_for('static', filename='img/service1.png') }}" alt="Venta directa">
+            <div class="service-content">
+                <h3>Venta Directa</h3>
+                <p>Adquiere NaturaFizz directamente desde nuestra tienda en línea con descuentos exclusivos y envío rápido a todo el país. Ofrecemos membresías mensuales con beneficios especiales.</p>
+                <a href="#" class="service-btn">Leer más</a>
+            </div>
+        </div>
+        
+        <div class="service-card">
+            <img src="{{ url_for('static', filename='img/service2.png') }}" alt="Distribución para gimnasios">
+            <div class="service-content">
+                <h3>Distribución para Gimnasios</h3>
+                <p>Soluciones especiales para gimnasios y centros deportivos que quieren ofrecer a sus clientes la mejor bebida energética natural. Incluye dispensadores personalizados.</p>
+                <a href="#" class="service-btn">Leer más</a>
+            </div>
+        </div>
+        
+        <div class="service-card">
+            <img src="{{ url_for('static', filename='img/service3.png') }}" alt="Eventos y promociones">
+            <div class="service-content">
+                <h3>Eventos y Promociones</h3>
+                <p>Organizamos eventos y promociones exclusivas para acercarte a nuestra comunidad. ¡Mantente al tanto de nuestras actividades y sorpresas!</p>
+                <a href="#" class="service-btn">Leer más</a>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

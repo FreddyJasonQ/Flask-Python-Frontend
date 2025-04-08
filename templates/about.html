@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block title %}NaturaFizz - Quiénes Somos{% endblock %}
+{% block content %}
+<!-- About Section -->
+<section class="about" id="about">
+    <h2 class="section-title">Quiénes Somos</h2>
+    <div class="about-content">
+        <div class="about-text">
+            <h3>Nuestra Historia</h3>
+            <p>NaturaFizz nació de la visión de combinar ingredientes naturales con un diseño futurista. Desde 2022, hemos estado creando bebidas que no solo te dan energía, sino que también cuidan tu salud y el medio ambiente.</p>
+            
+            <h3>Misión</h3>
+            <p>Llevar energía natural y saludable al mundo con un toque futurista, creando productos que respetan la naturaleza mientras abrazan la innovación tecnológica.</p>
+            
+            <h3>Visión</h3>
+            <p>Convertirnos en la bebida natural más innovadora del planeta, redefiniendo lo que significa ser una marca responsable en el siglo XXI.</p>
+        </div>
+        
+        <div class="team">
+            <div class="team-member">
+                <img src="{{ url_for('static', filename='img/team1.png') }}" alt="CEO">
+                <div class="team-info">
+                    <h4>Freddy Yujra</h4>
+                    <p>CEO & Fundador</p>
+                </div>
+            </div>
+            
+            <div class="team-member">
+                <img src="{{ url_for('static', filename='img/team2.png') }}" alt="Directora Creativa">
+                <div class="team-info">
+                    <h4>Freddy Yujra</h4>
+                    <p>Director Creativo</p>
+                </div>
+            </div>
+            
+            <div class="team-member">
+                <img src="{{ url_for('static', filename='img/team1.png') }}" alt="Nutricionista">
+                <div class="team-info">
+                    <h4>Freddy Yujra</h4>
+                    <p>Nutricionista Jefe</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

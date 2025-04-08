@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}NaturaFizz - Noticias{% endblock %}
+{% block content %}
+<!-- News Section -->
+<section class="news" id="news">
+    <h2 class="section-title">Noticias</h2>
+    <div class="news-grid">
+        <div class="news-card">
+            <img src="{{ url_for('static', filename='img/news1.png') }}" alt="Noticia 1">
+            <div class="news-content">
+                <span class="news-date">01/01/2025</span>
+                <h3>Nuevo lanzamiento de producto</h3>
+                <p>NaturaFizz lanza su nueva línea de bebidas energéticas con ingredientes aún más naturales y beneficios para la salud.</p>
+                <a href="#" class="news-link">Leer más</a>
+            </div>
+        </div>
+        
+        <div class="news-card">
+            <img src="{{ url_for('static', filename='img/news2.png') }}" alt="Noticia 2">
+            <div class="news-content">
+                <span class="news-date">15/02/2025</span>
+                <h3>Colaboración con atletas</h3>
+                <p>Reconocidos atletas se unen a NaturaFizz para promover un estilo de vida saludable y deportivo.</p>
+                <a href="#" class="news-link">Leer más</a>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
